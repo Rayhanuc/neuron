@@ -1,7 +1,8 @@
 	
+		<?php if(!is_page(10)) : ?>
 
 		<!-- :::::::::::::::::::::  Client Section:::::::::::::::::::::::::: -->
-		<section class="client-logo">
+		<section class="client-logo darker-bg">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -16,7 +17,7 @@
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</section><!-- end client section -->
-		
+		<?php endif;?>
 	
 		<!-- ::::::::::::::::::::: Footer Section:::::::::::::::::::::::::: -->
 		<footer>

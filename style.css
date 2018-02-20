@@ -36,6 +36,12 @@ Version: 1.0.0
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i');
 
 /* ================= General ==================== */
+
+.alignleft {float: left; margin-right: 20px}
+.alignright {float: right; margin-left: 20px}
+.aligncenter {float: none; display: block;margin: 0 auto 20px;}
+
+
 html,
 body { 
 	height: 100% 
@@ -529,9 +535,7 @@ ul.cart-list>li.total>a.btn:hover {
 .block-text h2{
 	margin-bottom: 50px; 
 }
-.block-text p{
-	margin-bottom: 60px;
-}
+
 .block.about-us-block .block-img {
 	margin-top: 0px;
 }
