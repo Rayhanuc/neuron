@@ -106,6 +106,17 @@ function neuron_theme_custom_post() {
             'show_ui' => true
         )
     );
+
+    register_post_type( 'work',
+        array(
+            'labels' => array(
+                'name' => __( 'Works' ),
+                'singular_name' => __( 'Work' )
+            ),
+            'supports' => array('title', 'editor', 'thumbnail', 'page-attributes'),
+            'public' => true,
+        )
+    );
 }
 
 
@@ -187,8 +198,8 @@ function thumbplost_list_shortcode($atts){
 }
 add_shortcode('thumb_posts', 'thumbplost_list_shortcode');  
 
-
-
+//Including CS-Framework file link
+require get_template_directory() . '/inc/cs-framework/cs-framework.php';
 
 
 ?>

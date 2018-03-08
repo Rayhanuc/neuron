@@ -1,5 +1,5 @@
 	
-		<?php if(!is_page(10)) : ?>
+		<?php if(!is_page(array('10','12'))) : ?>
 
 		<!-- :::::::::::::::::::::  Client Section:::::::::::::::::::::::::: -->
 		<section class="client-logo darker-bg">

@@ -61,8 +61,4 @@ Template Name: Services Template
 
 
 
-
-
-
-
 <?php get_footer();?>

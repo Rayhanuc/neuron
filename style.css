@@ -894,6 +894,7 @@ ul.cart-list>li.total>a.btn:hover {
     bottom: -30%;
     width: 100%;
     padding: 20px;
+    color: #fff;
 }
 .portfolio-item:hover .portfolio-details {
 	bottom: 0;
@@ -1565,4 +1566,15 @@ li.rating ul i {
 }
 .copyright-wrapper a{
 	color: #fff;
+}
+
+.single-portfolio-title {
+    text-transform: uppercase;
+    color: #3452FF;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.portfolio-details-panel h2 {
+    font-size: 26px;
 }
